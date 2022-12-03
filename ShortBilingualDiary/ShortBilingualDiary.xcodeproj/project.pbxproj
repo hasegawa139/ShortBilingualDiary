@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		049EFF7A293949F700ECE6DD /* DisplayStyleTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049EFF79293949F700ECE6DD /* DisplayStyleTabView.swift */; };
+		049EFF7C29394A5A00ECE6DD /* DiaryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049EFF7B29394A5A00ECE6DD /* DiaryListView.swift */; };
+		049EFF7E29394A8000ECE6DD /* DiaryListFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049EFF7D29394A8000ECE6DD /* DiaryListFormView.swift */; };
+		049EFF8029394AA500ECE6DD /* FilterDiariesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049EFF7F29394AA500ECE6DD /* FilterDiariesView.swift */; };
+		049EFF8229394ACC00ECE6DD /* YearPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049EFF8129394ACC00ECE6DD /* YearPickerView.swift */; };
+		049EFF8429394AE700ECE6DD /* MonthPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049EFF8329394AE700ECE6DD /* MonthPickerView.swift */; };
+		049EFF8629394B0600ECE6DD /* DecorationPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049EFF8529394B0600ECE6DD /* DecorationPickerView.swift */; };
+		049EFF8829394B3700ECE6DD /* SelectedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049EFF8729394B3700ECE6DD /* SelectedItem.swift */; };
+		049EFF8A29394B5500ECE6DD /* ExtractedDiariesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049EFF8929394B5500ECE6DD /* ExtractedDiariesView.swift */; };
+		049EFF8C29394B7A00ECE6DD /* DiariesCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049EFF8B29394B7A00ECE6DD /* DiariesCalendarView.swift */; };
+		049EFF8E29394BB900ECE6DD /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049EFF8D29394BB900ECE6DD /* CalendarView.swift */; };
+		049EFF9029394BD400ECE6DD /* DaysDiaryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049EFF8F29394BD400ECE6DD /* DaysDiaryListView.swift */; };
+		049EFF9229394BF100ECE6DD /* DiaryListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049EFF9129394BF100ECE6DD /* DiaryListRowView.swift */; };
+		049EFF9429394C0B00ECE6DD /* DiaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049EFF9329394C0B00ECE6DD /* DiaryView.swift */; };
+		049EFF9629394C3300ECE6DD /* AddDiaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049EFF9529394C3300ECE6DD /* AddDiaryView.swift */; };
+		049EFF9829394C5600ECE6DD /* ModifyDiaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049EFF9729394C5600ECE6DD /* ModifyDiaryView.swift */; };
+		049EFF9A29394C7300ECE6DD /* DiaryFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049EFF9929394C7300ECE6DD /* DiaryFormView.swift */; };
+		049EFF9C29394C9100ECE6DD /* ImageFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049EFF9B29394C9100ECE6DD /* ImageFormView.swift */; };
+		049EFF9E29394CB100ECE6DD /* PHPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049EFF9D29394CB000ECE6DD /* PHPickerView.swift */; };
+		049EFFA029394CD400ECE6DD /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049EFF9F29394CD400ECE6DD /* ImagePickerView.swift */; };
+		049EFFA229394D0400ECE6DD /* DiaryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049EFFA129394D0400ECE6DD /* DiaryItem.swift */; };
+		049EFFA429394D2600ECE6DD /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049EFFA329394D2600ECE6DD /* UserData.swift */; };
+		049EFFA629394D4D00ECE6DD /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049EFFA529394D4D00ECE6DD /* Date+Extension.swift */; };
+		049EFFA829395A4300ECE6DD /* TextFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049EFFA729395A4300ECE6DD /* TextFormView.swift */; };
+		049EFFB52939A06A00ECE6DD /* DiaryImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049EFFB42939A06A00ECE6DD /* DiaryImageView.swift */; };
+		04D073D72937AB8600663870 /* ShortBilingualDiaryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D073D62937AB8600663870 /* ShortBilingualDiaryApp.swift */; };
+		04D073DB2937AB8700663870 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04D073DA2937AB8700663870 /* Assets.xcassets */; };
+		04D073DE2937AB8700663870 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04D073DD2937AB8700663870 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		049EFF79293949F700ECE6DD /* DisplayStyleTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayStyleTabView.swift; sourceTree = "<group>"; };
+		049EFF7B29394A5A00ECE6DD /* DiaryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryListView.swift; sourceTree = "<group>"; };
+		049EFF7D29394A8000ECE6DD /* DiaryListFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryListFormView.swift; sourceTree = "<group>"; };
+		049EFF7F29394AA500ECE6DD /* FilterDiariesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterDiariesView.swift; sourceTree = "<group>"; };
+		049EFF8129394ACC00ECE6DD /* YearPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearPickerView.swift; sourceTree = "<group>"; };
+		049EFF8329394AE700ECE6DD /* MonthPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthPickerView.swift; sourceTree = "<group>"; };
+		049EFF8529394B0600ECE6DD /* DecorationPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecorationPickerView.swift; sourceTree = "<group>"; };
+		049EFF8729394B3700ECE6DD /* SelectedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedItem.swift; sourceTree = "<group>"; };
+		049EFF8929394B5500ECE6DD /* ExtractedDiariesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractedDiariesView.swift; sourceTree = "<group>"; };
+		049EFF8B29394B7A00ECE6DD /* DiariesCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiariesCalendarView.swift; sourceTree = "<group>"; };
+		049EFF8D29394BB900ECE6DD /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		049EFF8F29394BD400ECE6DD /* DaysDiaryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysDiaryListView.swift; sourceTree = "<group>"; };
+		049EFF9129394BF100ECE6DD /* DiaryListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryListRowView.swift; sourceTree = "<group>"; };
+		049EFF9329394C0B00ECE6DD /* DiaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryView.swift; sourceTree = "<group>"; };
+		049EFF9529394C3300ECE6DD /* AddDiaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDiaryView.swift; sourceTree = "<group>"; };
+		049EFF9729394C5600ECE6DD /* ModifyDiaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifyDiaryView.swift; sourceTree = "<group>"; };
+		049EFF9929394C7300ECE6DD /* DiaryFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryFormView.swift; sourceTree = "<group>"; };
+		049EFF9B29394C9100ECE6DD /* ImageFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFormView.swift; sourceTree = "<group>"; };
+		049EFF9D29394CB000ECE6DD /* PHPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHPickerView.swift; sourceTree = "<group>"; };
+		049EFF9F29394CD400ECE6DD /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
+		049EFFA129394D0400ECE6DD /* DiaryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryItem.swift; sourceTree = "<group>"; };
+		049EFFA329394D2600ECE6DD /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		049EFFA529394D4D00ECE6DD /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		049EFFA729395A4300ECE6DD /* TextFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFormView.swift; sourceTree = "<group>"; };
+		049EFFB42939A06A00ECE6DD /* DiaryImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryImageView.swift; sourceTree = "<group>"; };
+		04D073D32937AB8600663870 /* ShortBilingualDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShortBilingualDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04D073D62937AB8600663870 /* ShortBilingualDiaryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortBilingualDiaryApp.swift; sourceTree = "<group>"; };
+		04D073DA2937AB8700663870 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04D073DD2937AB8700663870 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04D073D02937AB8600663870 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		049EFFA92939742300ECE6DD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				049EFFA529394D4D00ECE6DD /* Date+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		049EFFAA2939766C00ECE6DD /* EditView */ = {
+			isa = PBXGroup;
+			children = (
+				049EFF9529394C3300ECE6DD /* AddDiaryView.swift */,
+				049EFF9729394C5600ECE6DD /* ModifyDiaryView.swift */,
+				049EFF9929394C7300ECE6DD /* DiaryFormView.swift */,
+				049EFFA729395A4300ECE6DD /* TextFormView.swift */,
+				049EFF9B29394C9100ECE6DD /* ImageFormView.swift */,
+				049EFF9D29394CB000ECE6DD /* PHPickerView.swift */,
+				049EFF9F29394CD400ECE6DD /* ImagePickerView.swift */,
+			);
+			path = EditView;
+			sourceTree = "<group>";
+		};
+		049EFFAB2939777F00ECE6DD /* ListViewTab */ = {
+			isa = PBXGroup;
+			children = (
+				049EFF7B29394A5A00ECE6DD /* DiaryListView.swift */,
+				049EFF7D29394A8000ECE6DD /* DiaryListFormView.swift */,
+				049EFF7F29394AA500ECE6DD /* FilterDiariesView.swift */,
+				049EFF8929394B5500ECE6DD /* ExtractedDiariesView.swift */,
+				049EFFAF29397F9D00ECE6DD /* PickerViewsForFiltering */,
+				049EFFB0293981C100ECE6DD /* ModelForFiltering */,
+			);
+			path = ListViewTab;
+			sourceTree = "<group>";
+		};
+		049EFFAC2939784C00ECE6DD /* CalendarViewTab */ = {
+			isa = PBXGroup;
+			children = (
+				049EFF8B29394B7A00ECE6DD /* DiariesCalendarView.swift */,
+				049EFF8D29394BB900ECE6DD /* CalendarView.swift */,
+				049EFF8F29394BD400ECE6DD /* DaysDiaryListView.swift */,
+			);
+			path = CalendarViewTab;
+			sourceTree = "<group>";
+		};
+		049EFFAD29397A9B00ECE6DD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				049EFFA129394D0400ECE6DD /* DiaryItem.swift */,
+				049EFFA329394D2600ECE6DD /* UserData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		049EFFAE29397EEC00ECE6DD /* ReadView */ = {
+			isa = PBXGroup;
+			children = (
+				049EFF9129394BF100ECE6DD /* DiaryListRowView.swift */,
+				049EFF9329394C0B00ECE6DD /* DiaryView.swift */,
+				049EFFB42939A06A00ECE6DD /* DiaryImageView.swift */,
+			);
+			path = ReadView;
+			sourceTree = "<group>";
+		};
+		049EFFAF29397F9D00ECE6DD /* PickerViewsForFiltering */ = {
+			isa = PBXGroup;
+			children = (
+				049EFF8129394ACC00ECE6DD /* YearPickerView.swift */,
+				049EFF8329394AE700ECE6DD /* MonthPickerView.swift */,
+				049EFF8529394B0600ECE6DD /* DecorationPickerView.swift */,
+			);
+			path = PickerViewsForFiltering;
+			sourceTree = "<group>";
+		};
+		049EFFB0293981C100ECE6DD /* ModelForFiltering */ = {
+			isa = PBXGroup;
+			children = (
+				049EFF8729394B3700ECE6DD /* SelectedItem.swift */,
+			);
+			path = ModelForFiltering;
+			sourceTree = "<group>";
+		};
+		04D073CA2937AB8600663870 = {
+			isa = PBXGroup;
+			children = (
+				04D073D52937AB8600663870 /* ShortBilingualDiary */,
+				04D073D42937AB8600663870 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04D073D42937AB8600663870 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04D073D32937AB8600663870 /* ShortBilingualDiary.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04D073D52937AB8600663870 /* ShortBilingualDiary */ = {
+			isa = PBXGroup;
+			children = (
+				04D073D62937AB8600663870 /* ShortBilingualDiaryApp.swift */,
+				049EFF79293949F700ECE6DD /* DisplayStyleTabView.swift */,
+				049EFFAB2939777F00ECE6DD /* ListViewTab */,
+				049EFFAC2939784C00ECE6DD /* CalendarViewTab */,
+				049EFFAE29397EEC00ECE6DD /* ReadView */,
+				049EFFAA2939766C00ECE6DD /* EditView */,
+				049EFFAD29397A9B00ECE6DD /* Models */,
+				049EFFA92939742300ECE6DD /* Extensions */,
+				04D073DA2937AB8700663870 /* Assets.xcassets */,
+				04D073DC2937AB8700663870 /* Preview Content */,
+			);
+			path = ShortBilingualDiary;
+			sourceTree = "<group>";
+		};
+		04D073DC2937AB8700663870 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				04D073DD2937AB8700663870 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04D073D22937AB8600663870 /* ShortBilingualDiary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04D073E12937AB8700663870 /* Build configuration list for PBXNativeTarget "ShortBilingualDiary" */;
+			buildPhases = (
+				04D073CF2937AB8600663870 /* Sources */,
+				04D073D02937AB8600663870 /* Frameworks */,
+				04D073D12937AB8600663870 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShortBilingualDiary;
+			productName = ShortBilingualDiary;
+			productReference = 04D073D32937AB8600663870 /* ShortBilingualDiary.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04D073CB2937AB8600663870 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					04D073D22937AB8600663870 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 04D073CE2937AB8600663870 /* Build configuration list for PBXProject "ShortBilingualDiary" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04D073CA2937AB8600663870;
+			productRefGroup = 04D073D42937AB8600663870 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04D073D22937AB8600663870 /* ShortBilingualDiary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04D073D12937AB8600663870 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D073DE2937AB8700663870 /* Preview Assets.xcassets in Resources */,
+				04D073DB2937AB8700663870 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04D073CF2937AB8600663870 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049EFF9029394BD400ECE6DD /* DaysDiaryListView.swift in Sources */,
+				049EFF8029394AA500ECE6DD /* FilterDiariesView.swift in Sources */,
+				049EFFA229394D0400ECE6DD /* DiaryItem.swift in Sources */,
+				049EFF8C29394B7A00ECE6DD /* DiariesCalendarView.swift in Sources */,
+				049EFF8E29394BB900ECE6DD /* CalendarView.swift in Sources */,
+				049EFFA629394D4D00ECE6DD /* Date+Extension.swift in Sources */,
+				049EFFA029394CD400ECE6DD /* ImagePickerView.swift in Sources */,
+				049EFF8A29394B5500ECE6DD /* ExtractedDiariesView.swift in Sources */,
+				049EFF9429394C0B00ECE6DD /* DiaryView.swift in Sources */,
+				049EFF9A29394C7300ECE6DD /* DiaryFormView.swift in Sources */,
+				049EFF9C29394C9100ECE6DD /* ImageFormView.swift in Sources */,
+				049EFF8429394AE700ECE6DD /* MonthPickerView.swift in Sources */,
+				049EFF8229394ACC00ECE6DD /* YearPickerView.swift in Sources */,
+				049EFFA429394D2600ECE6DD /* UserData.swift in Sources */,
+				049EFFB52939A06A00ECE6DD /* DiaryImageView.swift in Sources */,
+				049EFF9E29394CB100ECE6DD /* PHPickerView.swift in Sources */,
+				04D073D72937AB8600663870 /* ShortBilingualDiaryApp.swift in Sources */,
+				049EFFA829395A4300ECE6DD /* TextFormView.swift in Sources */,
+				049EFF7C29394A5A00ECE6DD /* DiaryListView.swift in Sources */,
+				049EFF9629394C3300ECE6DD /* AddDiaryView.swift in Sources */,
+				049EFF7E29394A8000ECE6DD /* DiaryListFormView.swift in Sources */,
+				049EFF8829394B3700ECE6DD /* SelectedItem.swift in Sources */,
+				049EFF9829394C5600ECE6DD /* ModifyDiaryView.swift in Sources */,
+				049EFF9229394BF100ECE6DD /* DiaryListRowView.swift in Sources */,
+				049EFF8629394B0600ECE6DD /* DecorationPickerView.swift in Sources */,
+				049EFF7A293949F700ECE6DD /* DisplayStyleTabView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		04D073DF2937AB8700663870 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04D073E02937AB8700663870 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04D073E22937AB8700663870 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ShortBilingualDiary/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "写真を撮影するためにカメラを使用します";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ShortBilingualDiary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04D073E32937AB8700663870 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ShortBilingualDiary/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "写真を撮影するためにカメラを使用します";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ShortBilingualDiary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04D073CE2937AB8600663870 /* Build configuration list for PBXProject "ShortBilingualDiary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04D073DF2937AB8700663870 /* Debug */,
+				04D073E02937AB8700663870 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04D073E12937AB8700663870 /* Build configuration list for PBXNativeTarget "ShortBilingualDiary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04D073E22937AB8700663870 /* Debug */,
+				04D073E32937AB8700663870 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04D073CB2937AB8600663870 /* Project object */;
+}
